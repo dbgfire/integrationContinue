@@ -60,6 +60,15 @@
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-library</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.sonatype.forge</groupId>
+			<artifactId>forge-parent</artifactId>
+			<version>10</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
