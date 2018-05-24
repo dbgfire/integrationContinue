@@ -11,3 +11,7 @@ deployment:
             bucket: my-bucket
             key_pattern: appname-1234-{BRANCH}-{SHORT_COMMIT}
         deployment_group: my-deployment-group
+        
+dependencies:
+  pre:
+    - curl -fL https://getcli.jfrog.io | sh
