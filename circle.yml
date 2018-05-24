@@ -22,4 +22,4 @@ compile:
     - ./jfrog rt u "multi*/*.jar" https://artifactory.benjamin-tourman.fr/artifactory/webapp/#/home --build-name="coal" --build-number=$CIRCLE_BUILD_NUM --flat=false
     - ./jfrog rt u "multi*/*.war" https://artifactory.benjamin-tourman.fr/artifactory/webapp/#/home --build-name="coal" --build-number=$CIRCLE_BUILD_NUM --flat=false
     - ./jfrog rt bce "coal" $CIRCLE_BUILD_NUM
-    - ./jfrog rt bp "coal" $CIRCLE_BUILD_NUM
+    - ./jfrog rt bp "coal"   $CIRCLE_BUILD_NUM
